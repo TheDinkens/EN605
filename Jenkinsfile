@@ -4,6 +4,7 @@ pipeline{
 	stages{
 		stage("compile"){
 			steps{
+
 				sh("g++ hello_world.cpp -o test")
 			}	
 
